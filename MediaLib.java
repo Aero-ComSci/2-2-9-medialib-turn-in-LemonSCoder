@@ -94,6 +94,18 @@ public class MediaLib
     return numEntries;
   }
 
+  public static int getNumBooks() {
+    return bookEntries;
+  }
+
+  public static int getNumMovies() {
+    return movieEntries;
+  }
+  
+  public static int getNumSongs() {
+    return songEntries;
+  }
+
   public static void changeOwner(String ownerName) {
     owner = ownerName;
   }
@@ -104,5 +116,6 @@ public class MediaLib
     
     return info;
   }
+
 
 }
